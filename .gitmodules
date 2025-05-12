@@ -1,0 +1,3 @@
+[submodule "themes/bio-x"]
+	path = themes/bio-x
+	url = https://github.com/nozsh/bio-x-hugo.git
