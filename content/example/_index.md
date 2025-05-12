@@ -136,7 +136,6 @@ social:
 {{< div class="p-px rounded-2xl bg-gradient-to-b from-orange-300/50 to-sky-300/50 spin-gradient" >}}
 {{< div class="backdrop-blur-lg rounded-2xl" >}}
 {{< yt class="rounded-2xl" id="dQw4w9WgXcQ" startAt="43" title="Never Gonna Give You Up" >}}
-{{< yt class="rounded-2xl" id="nJlHJZo66UA" title="Never Gonna Give You Up" >}}
 {{< /div >}}
 {{< /div >}}
 
