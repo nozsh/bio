@@ -38,8 +38,7 @@ background:
   imageBlur: "6"
   custom: ""
   customOpacity: "1"
-  customPseudoBefore: ""
-  # background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('noise.gif'); pointer-events: none;
+  customPseudoBefore: " background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('noise.gif'); pointer-events: none;"
   customPseudoBeforeOpacity: "0.1"
   solid: ""
   SolidOpacity: "1"
@@ -48,7 +47,6 @@ image:
   pic: "avatar-bw.avif"
   alt: ""
   class: "h-47 w-47 rounded-2xl pointer-events-none mask-r-from-50% mask-l-from-50% mask-t-from-50% mask-b-from-50%"
-  # mask-r-from-50% mask-l-from-50% mask-t-from-50% mask-b-from-50%
   containerClass: "mb-2 p-6 bg-base-300/35 backdrop-blur-lg rounded-2xl"
 
 name:
