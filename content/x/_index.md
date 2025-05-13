@@ -38,7 +38,7 @@ background:
   imageBlur: "6"
   custom: ""
   customOpacity: "1"
-  customPseudoBefore: "background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('noise.gif'); pointer-events: none;"
+  customPseudoBefore: ""
   customPseudoBeforeOpacity: "0.1"
   solid: ""
   SolidOpacity: "1"
