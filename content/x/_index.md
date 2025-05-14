@@ -9,7 +9,7 @@ title: "X"
 desc:
   text: "Dude. Fullstack. Fan of Bash."
   class: "font-semibold"
-  containerClass: "max-w-xs text-center bg-base-300/35 backdrop-blur-lg px-4 py-2 rounded-2xl"
+  containerClass: "max-w-xs text-center bg-black/10 backdrop-blur-lg px-4 py-2 rounded-2xl"
 cover:
   pic: ""
   alt: ""
@@ -35,10 +35,10 @@ contentClass: ""
 background:
   image: "bg.avif"
   imageOpacity: "0.5"
-  imageBlur: "6"
+  imageBlur: ""
   custom: ""
   customOpacity: "1"
-  customPseudoBefore: " background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('noise.gif'); pointer-events: none;"
+  customPseudoBefore: "background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://assets.nozsh.com/img/loose/noise.gif'); pointer-events: none;"
   customPseudoBeforeOpacity: "0.1"
   solid: ""
   SolidOpacity: "1"
@@ -46,8 +46,8 @@ background:
 image:
   pic: "avatar-bw.avif"
   alt: ""
-  class: "h-47 w-47 rounded-2xl pointer-events-none mask-r-from-50% mask-l-from-50% mask-t-from-50% mask-b-from-50%"
-  containerClass: "mb-2 p-6 bg-base-300/35 backdrop-blur-lg rounded-2xl"
+  class: "h-50 w-50 rounded-2xl pointer-events-none mask-x-from-50% mask-y-from-50%"
+  containerClass: "mb-2 p-6 bg-black/10 backdrop-blur-lg rounded-2xl mask-r-from-90% mask-l-from-90% mask-t-from-90% mask-b-from-90%"
 
 name:
   text: ""
@@ -62,15 +62,9 @@ location:
 
 social:
   show: true
-  containerClass: "flex-wrap min-w-0 max-w-lg bg-base-300/35 px-4 py-2 backdrop-blur-lg rounded-2xl mt-2"
-  classForAllEl: "h-9 w-9 p-1 rounded-sm transition-all  saturate-0 hover:saturate-100 hover:scale-90"
+  containerClass: "flex-wrap min-w-0 max-w-lg px-4 py-2 bg-black/10 backdrop-blur-lg rounded-2xl mt-2"
+  classForAllEl: "h-9 w-9 p-1 rounded-sm transition-all saturate-0 hover:saturate-100 hover:scale-95"
   links:
-    - name: Website
-      url: "/"
-      newTab: false
-      class: "text-gray-500"
-      style: ""
-      icon: '<svg xmlns="http://www.w3.org/2000/svg" class="" viewBox="0 0 24 24"><path fill="currentColor" d="M16.36 14c.08-.66.14-1.32.14-2s-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2m-5.15 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56M14.34 14H9.66c-.1-.66-.16-1.32-.16-2s.06-1.35.16-2h4.68c.09.65.16 1.32.16 2s-.07 1.34-.16 2M12 19.96c-.83-1.2-1.5-2.53-1.91-3.96h3.82c-.41 1.43-1.08 2.76-1.91 3.96M8 8H5.08A7.92 7.92 0 0 1 9.4 4.44C8.8 5.55 8.35 6.75 8 8m-2.92 8H8c.35 1.25.8 2.45 1.4 3.56A8 8 0 0 1 5.08 16m-.82-2C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2s.06 1.34.14 2M12 4.03c.83 1.2 1.5 2.54 1.91 3.97h-3.82c.41-1.43 1.08-2.77 1.91-3.97M18.92 8h-2.95a15.7 15.7 0 0 0-1.38-3.56c1.84.63 3.37 1.9 4.33 3.56M12 2C6.47 2 2 6.5 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg>'
     - name: "Proton Mail"
       url: "mailto:knowx101@proton.me"
       newTab: false
@@ -91,15 +85,29 @@ social:
       icon: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M461.226 111.998c-4.48 29.013-34.773 226.133-44.586 288a27.1 27.1 0 0 1-12.824 23.14a27.09 27.09 0 0 1-26.43 1.18a138.9 138.9 0 0 1-36.053-18.987c-33.92-22.613-68.48-44.16-100.48-69.333c-15.36-12.16-15.573-23.467 0-36.907a3589 3589 0 0 0 109.44-104.106c4.693-4.694 15.36-15.147 9.387-21.334c-5.974-6.186-18.347 2.56-24.32 6.614c-49.92 33.28-100.267 66.346-149.334 100.48A62.5 62.5 0 0 1 128 289.918c-23.467-7.04-46.72-14.72-69.76-22.4c-9.387-2.987-34.134-13.013 11.733-31.787c117.12-48.64 236.587-97.493 354.133-145.92c28.587-10.88 40.534-1.28 37.12 22.187"/></svg>'
 ---
 
-{{< desc class="p-4 rounded-2xl border-1 border-gray-500/35 backdrop-blur-lg" >}}
+<style>
+  #background-image {
+    filter: blur(6px) grayscale(20%);
+  }
+</style>
 
-<div class="bg-base-300/35 backdrop-blur-lg p-3 absolute top-2 right-2 rounded-xl tooltip lg:tooltip-right" data-tip="На русском">
+{{< desc class="p-4 rounded-2xl border-1 border-gray-500/35 bg-black/10 backdrop-blur-lg" >}}
+
+<div class="bg-black/10 backdrop-blur-lg p-3 absolute top-2 right-2 rounded-xl tooltip lg:tooltip-right" data-tip="На русском">
   <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 512 512"><path fill="#ff473e" d="M1 312.52v101.445c0 7.251 4.94 13.588 11.981 15.318c159.163 39.106 318.326-43.539 477.489-8.034c9.83 2.193 19.149-5.331 19.149-15.403V312.52c-169.54-48.324-339.079 48.324-508.619 0"/><path fill="#0b67b2" d="M1 198.935v113.586c169.54 48.324 339.079-48.324 508.619 0V198.935c-169.54-48.324-339.079 48.324-508.619 0"/><path fill="#e8e8e8" d="M1 101.194v97.741c169.54 48.324 339.079-48.324 508.619 0V93.075c0-7.251-4.94-13.588-11.981-15.318c-159.163-39.106-318.326 43.539-477.489 8.034C10.319 83.599 1 91.122 1 101.194"/></svg>
 </div>
 
+## Кто это?
+
+Местный автор (указанный как nozsh) какого-то текста **[здесь](/blog/)**.
+
+{{< /desc >}}
+
+{{< desc class="p-4 rounded-2xl border-1 border-gray-500/35 bg-black/10 backdrop-blur-lg" >}}
+
 ## Контакт
 
-Вы можете связаться со мной по почте или через другие указанные выше контакты -- так вы, вероятно, получите ответ быстрее.
+Вы можете связаться со мной по почте или через другие (личные) указанные выше контакты -- так вы, вероятно, получите ответ быстрее.
 
 ## Как писать
 
@@ -113,11 +121,19 @@ social:
 
 {{< /desc >}}
 
-{{< desc class="p-4 rounded-2xl border-1 border-gray-500/35 backdrop-blur-lg" >}}
+{{< desc class="p-4 rounded-2xl border-1 border-gray-500/35 bg-black/10 backdrop-blur-lg" >}}
 
-<div class="bg-base-300/35 backdrop-blur-lg p-3 absolute top-2 right-2 rounded-xl tooltip lg:tooltip-right" data-tip="English">
+<div class="bg-black/10 backdrop-blur-lg p-3 absolute top-2 right-2 rounded-xl tooltip lg:tooltip-right" data-tip="English">
   <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 36 36"><path fill="#b22334" d="M35.445 7C34.752 5.809 33.477 5 32 5H18v2zM0 25h36v2H0zm18-8h18v2H18zm0-4h18v2H18zM0 21h36v2H0zm4 10h28c1.477 0 2.752-.809 3.445-2H.555c.693 1.191 1.968 2 3.445 2M18 9h18v2H18z"/><path fill="#eee" d="M.068 27.679q.025.14.059.277q.04.15.092.296c.089.259.197.509.333.743L.555 29h34.89l.002-.004a4 4 0 0 0 .332-.741a4 4 0 0 0 .152-.576c.041-.22.069-.446.069-.679H0c0 .233.028.458.068.679M0 23h36v2H0zm0-4v2h36v-2H18zm18-4h18v2H18zm0-4h18v2H18zM.555 7l-.003.005zM.128 8.044c.025-.102.06-.199.092-.297a4 4 0 0 0-.092.297M18 9h18c0-.233-.028-.459-.069-.68a3.6 3.6 0 0 0-.153-.576A4 4 0 0 0 35.445 7H18z"/><path fill="#3c3b6e" d="M18 5H4a4 4 0 0 0-4 4v10h18z"/><path fill="#fff" d="m2.001 7.726l.618.449l-.236.725L3 8.452l.618.448l-.236-.725L4 7.726h-.764L3 7l-.235.726zm2 2l.618.449l-.236.725l.617-.448l.618.448l-.236-.725L6 9.726h-.764L5 9l-.235.726zm4 0l.618.449l-.236.725l.617-.448l.618.448l-.236-.725l.618-.449h-.764L9 9l-.235.726zm4 0l.618.449l-.236.725l.617-.448l.618.448l-.236-.725l.618-.449h-.764L13 9l-.235.726zm-8 4l.618.449l-.236.725l.617-.448l.618.448l-.236-.725l.618-.449h-.764L5 13l-.235.726zm4 0l.618.449l-.236.725l.617-.448l.618.448l-.236-.725l.618-.449h-.764L9 13l-.235.726zm4 0l.618.449l-.236.725l.617-.448l.618.448l-.236-.725l.618-.449h-.764L13 13l-.235.726zm-6-6l.618.449l-.236.725L7 8.452l.618.448l-.236-.725L8 7.726h-.764L7 7l-.235.726zm4 0l.618.449l-.236.725l.617-.448l.618.448l-.236-.725l.618-.449h-.764L11 7l-.235.726zm4 0l.618.449l-.236.725l.617-.448l.618.448l-.236-.725l.618-.449h-.764L15 7l-.235.726zm-12 4l.618.449l-.236.725l.617-.448l.618.448l-.236-.725l.618-.449h-.764L3 11l-.235.726zM6.383 12.9L7 12.452l.618.448l-.236-.725l.618-.449h-.764L7 11l-.235.726h-.764l.618.449zm3.618-1.174l.618.449l-.236.725l.617-.448l.618.448l-.236-.725l.618-.449h-.764L11 11l-.235.726zm4 0l.618.449l-.236.725l.617-.448l.618.448l-.236-.725l.618-.449h-.764L15 11l-.235.726zm-12 4l.618.449l-.236.725l.617-.448l.618.448l-.236-.725l.618-.449h-.764L3 15l-.235.726zM6.383 16.9L7 16.452l.618.448l-.236-.725l.618-.449h-.764L7 15l-.235.726h-.764l.618.449zm3.618-1.174l.618.449l-.236.725l.617-.448l.618.448l-.236-.725l.618-.449h-.764L11 15l-.235.726zm4 0l.618.449l-.236.725l.617-.448l.618.448l-.236-.725l.618-.449h-.764L15 15l-.235.726z"/></svg>
 </div>
+
+## Who is it?
+
+Local author (known as nozsh) of some texts **[here](/blog/)**.
+
+{{< /desc >}}
+
+{{< desc class="p-4 rounded-2xl border-1 border-gray-500/35 bg-black/10 backdrop-blur-lg" >}}
 
 ## Contact
 
@@ -135,6 +151,6 @@ Before text, it's wise to know **[nohello](https://nohello.net)**.
 
 {{< /desc >}}
 
-{{< desc class="p-4 rounded-2xl border-1 border-gray-500/35 backdrop-blur-lg" >}}
+{{< desc class="p-4 rounded-2xl border-1 border-gray-500/35 bg-black/10 backdrop-blur-lg" >}}
 **[Background picture](https://unsplash.com/photos/brown-and-black-abstract-painting-7fHCXoiDMBE) by [Pawel Czerwinski](https://unsplash.com/@pawel_czerwinski) / [Unsplash](https://unsplash.com/)**
 {{< /desc >}}
