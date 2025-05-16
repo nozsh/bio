@@ -1,11 +1,12 @@
 ---
 draft: false
+noindex: true
 containerClass: "container max-w-full flex justify-center items-center h-screen"
 contentClass: "mt-8 p-4 flex justify-center items-center prose font-semibold"
 
 preloader: true
 
-title: "Home"
+title: "bio"
 cover:
   pic: ""
   alt: ""
