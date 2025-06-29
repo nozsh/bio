@@ -12,6 +12,7 @@ desc:
 cover:
   pic: ""
   alt: ""
+bioText: "pc@" # bio@xyz
 twitter_card: "summary"
 
 assets:

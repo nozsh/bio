@@ -7,12 +7,14 @@ contentClass: "mt-8 p-4 flex justify-center items-center prose font-semibold"
 preloader: true
 
 title: "bio"
+desc:
+  text: ""
 cover:
   pic: ""
   alt: ""
-desc:
-  text: ""
+bioText: "" # bio@xyz
 twitter_card: "summary"
+
 assets:
   favicon_on: true
   favicon: ""

@@ -1,6 +1,7 @@
 ---
 type: "profile"
 draft: false
+noindex: true
 langOwn: "en"
 slug: ""
 preloader: true
@@ -13,8 +14,8 @@ desc:
 cover:
   pic: ""
   alt: ""
-bio_text: true # bio@xyz
-twitter_card: "summary"
+bioText: "bio@" # bio@xyz
+twitterCard: "summary"
 
 assets:
   favicon_on: true

@@ -1,6 +1,7 @@
 ---
 type: "pcspecs"
 draft: false
+noindex: true
 langOwn: "en"
 slug: ""
 preloader: true
@@ -11,7 +12,8 @@ desc:
 cover:
   pic: ""
   alt: ""
-twitter_card: "summary"
+bioText: "specs@" # bio@xyz
+twitterCard: "summary"
 
 assets:
   favicon_on: true
@@ -152,3 +154,5 @@ specs:
   audioGear:
     - name: "Focusrite Scarlett 18i20 4th Gen"
 ---
+
+Info
