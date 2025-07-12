@@ -114,16 +114,21 @@ specs:
 
   # ---
 
-  box: "Thermaltake View 21 TG"
+  box: "MONTECH KING 95 @ BLACK"
 
   fan:
+    - name: "DEEPCOOL FD14 @ 140mm / 400-1650RPM / x2 @ BLACK [R-FD14-BKNPN1-G]"
     - name: "DEEPCOOL RF120 FS @ 120mm / 500-1500RPM / x4"
     - name: "Arctic Cooling P12 PWM @ 120mm / 200-1800RPM"
+
+  fansGear:
+    - name: "Splitter DEEPCOOL SC790"
+    - name: "Splitter DEEPCOOL FH-04"
 
   # ---
 
   psu:
-    - name: "Cougar GEC 750W @ 80+ GOLD"
+    - name: "Cougar GEX X2 1000W @ 80+ GOLD"
 
   # ---
 
@@ -135,6 +140,7 @@ specs:
 
   keyboard:
     - name: "CIDOO QK61 V2 @ White"
+    - name: "Epomaker TH40 @ Black Gold"
 
   mouse:
     - name: "Bloody P91 Pro"
@@ -166,15 +172,16 @@ specs:
 
 ## CPU
 
-- PBO 70 Level 4
+- PBO 80 Level 4
 
-**70** - Max temp °C.
+**80** - Max temp °C.
 
 **Level 4** - OC (higher = more)
 
 ## BOX FANS
 
-- DEEPCOOL RF120 FS @ F3
+- DEEPCOOL FD14 @ S2
+- DEEPCOOL RF120 FS @ B3
 - DEEPCOOL RF120 FS @ R1
 - Arctic Cooling P12 PWM @ T1
 
